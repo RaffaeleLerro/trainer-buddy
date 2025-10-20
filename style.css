@@ -1,0 +1,494 @@
+/* --- 1. Variabili e Reset --- */
+:root {
+    --bg-color: #f4f7f6;
+    --surface-color: #ffffff;
+    --primary-color: #00A896;
+    --primary-light: #d4f3ef;
+    --secondary-color: #f0c808;
+    --pause-color: #007bff;
+    --text-color: #1a1a1a;
+    --text-muted: #6c757d;
+    --border-color: #e9ecef;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* --- 2. Gestione Schermate e Animazioni --- */
+
+/* Nuovo contenitore root per il blur */
+#root-container {
+width: 100%;
+height: 100%;
+max-width: 480px;
+position: relative;
+transition: filter 0.3s ease-in-out;
+}
+#root-container.is-blurred {
+filter: blur(5px);
+}
+
+.fullscreen-page, #workout-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    pointer-events: none;
+}
+
+.is-visible {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    pointer-events: auto;
+}
+
+/* --- 3. Schermate (Benvenuto, Intermedia, Messaggi) --- */
+
+.fullscreen-page {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.fullscreen-page h2 {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.fullscreen-page h3 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+
+.fullscreen-page p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    max-width: 350px;
+    line-height: 1.5;
+    color: var(--text-muted);
+}
+
+/* Stile specifico per il tempo totale nella welcome screen */
+#welcome-total-time {
+font-size: 1.1rem;
+font-weight: 600;
+color: var(--text-color);
+margin-top: -1.5rem; /* Avvicina alle info sopra */
+margin-bottom: 1.5rem;
+}
+
+
+#welcome-screen #start-workout-button {
+margin-bottom: 0.75rem;
+}
+
+#inter-image-container {
+width: 180px;
+height: 180px;
+background-color: var(--surface-color);
+border-radius: 50%;
+margin: 1.5rem 0;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 4px 15px rgba(0, 168, 150, 0.1);
+}
+
+#inter-section-image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/* --- 4. Schermata Allenamento --- */
+
+header {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--surface-color);
+    text-align: center;
+    flex-shrink: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 10;
+}
+#app-title {
+font-size: 0.8rem;
+font-weight: 600;
+color: var(--text-muted);
+text-transform: uppercase;
+letter-spacing: 0.5px;
+}
+#day-of-week {
+font-size: 1.4rem;
+font-weight: 700;
+color: var(--text-color);
+line-height: 1.2;
+}
+#muscle-groups {
+font-size: 0.9rem;
+color: var(--primary-color);
+font-weight: 600;
+}
+main {
+    flex-grow: 1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+#section-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 1rem;
+flex-shrink: 0;
+}
+#section-title {
+font-size: 1.5rem;
+font-weight: 700;
+text-transform: capitalize;
+}
+#section-timer {
+font-size: 1.1rem;
+font-weight: 600;
+color: var(--primary-color);
+background-color: var(--primary-light);
+padding: 0.25rem 0.75rem;
+border-radius: 20px;
+}
+#exercise-area {
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+transition: opacity 0.2s ease-in-out;
+}
+#exercise-name {
+font-size: 1.75rem;
+font-weight: 700;
+margin-bottom: 1.5rem;
+line-height: 1.3;
+min-height: 2.6em;
+}
+#gif-container {
+width: 100%;
+max-width: 350px;
+aspect-ratio: 1 / 1;
+background-color: var(--surface-color);
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+position: relative; /* Aggiunto per posizionare animazione */
+transition: visibility 0.1s; /* Transizione per pausa manuale */
+}
+#exercise-gif {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 0.3s, visibility 0.3s; /* Aggiunta transizione */
+}
+
+/* --- MODIFICA: Animazione di pausa "Respiro" --- */
+#pause-animation {
+position: absolute;
+top: 0; left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent; /* MODIFICA: Rimosso sfondo bianco */
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s, visibility 0.3s;
+pointer-events: none;
+}
+
+/* cerchio "respiro" */
+.pause-circle {
+    width: 180px; /* MODIFICA: Più grande */
+    height: 180px; /* MODIFICA: Più grande */
+    background: rgba(0, 123, 255, 0.15); /* MODIFICA: Leggermente più visibile */
+    border-radius: 50%;
+    display: block;
+    transform-origin: center center;
+    animation: pulse-breath 3s cubic-bezier(.45, 0, .55, 1) infinite; /* MODIFICA: Animazione respiro */
+    box-shadow: 0 0 40px 20px rgba(0, 123, 255, 0.2); /* MODIFICA: Bordo sfocato */
+    backdrop-filter: blur(5px);
+    border: none; /* MODIFICA: Rimosso bordo */
+}
+
+/* Rimuovo il glow interno, non più necessario */
+.pause-circle::after {
+    display: none;
+}
+
+/* MODIFICA: Nuova animazione "respiro" */
+@keyframes pulse-breath {
+    0% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.15); /* Gonfia di più */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+}
+
+
+/* Nasconde GIF e mostra animazione in stato pause */
+#workout-container.is-pause #exercise-gif {
+opacity: 0;
+visibility: hidden;
+}
+
+#workout-container.is-pause #pause-animation {
+opacity: 1;
+visibility: visible;
+}
+/* --- Fine Modifica Pausa --- */
+
+
+/* --- MODIFICA: Pausa GIF manuale --- */
+#workout-container.is-manually-paused #gif-container {
+visibility: hidden;
+}
+/* --- Fine Modifica --- */
+
+
+/* --- 5. Footer (Controlli) --- */
+footer {
+    padding: 1.5rem;
+    background-color: var(--surface-color);
+    border-top: 1px solid var(--border-color);
+    flex-shrink: 0;
+    padding-bottom: calc(1.5rem + env(safe-area-inset-bottom));
+}
+#progress-bar-container {
+width: 100%;
+height: 28px;
+background-color: var(--border-color);
+border-radius: 14px;
+overflow: hidden;
+margin-bottom: 1.5rem;
+position: relative;
+}
+#progress-bar-inner {
+width: 0%;
+height: 100%;
+background-color: var(--primary-color);
+transition: width 0.3s linear;
+}
+#workout-container.is-pause #progress-bar-inner {
+background-color: var(--pause-color);
+}
+#progress-bar-timer {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.9rem;
+font-weight: 700;
+color: var(--text-color);
+text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+#button-group {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 1rem;
+}
+
+/* --- 6. Bottoni (Stile Moderno) --- */
+button {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px; /* Pill-shaped */
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    width: 100%;
+    max-width: 350px;
+}
+button:active {
+    transform: scale(0.97);
+}
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #008a7b;
+}
+.btn-secondary {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+}
+.btn-secondary:hover {
+    background-color: #c2ede8;
+}
+
+/* --- 7. Indicatore Giri --- */
+#lap-indicator {
+display: none; /* MODIFICA: Non più usato */
+}
+
+/* --- 8. Nuovi Stili: Modali e Pausa --- */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo scuro */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+.modal-content {
+    background-color: var(--surface-color);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* Spazio tra i bottoni */
+    align-items: center;
+}
+.modal-content h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.day-btn {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-weight: 600;
+}
+#close-modal-button {
+margin-top: 0.5rem;
+}
+
+/* Stile Overlay Pausa */
+#pause-overlay {
+z-index: 999; /* Sopra tutto, tranne l'indicatore giri */
+}
+.pause-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+.pause-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+#resume-button {
+width: 200px;
+}
+
+/* --- 9. NUOVO: Stile Overlay Giri (Schermo Intero) --- */
+.lap-overlay-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001; /* Sopra l'overlay di pausa se si sovrappongono */
+    background-color: var(--bg-color); /* Sfondo chiaro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Animazione "fluida" (clip-path) */
+    opacity: 0;
+    visibility: hidden;
+    clip-path: circle(0% at 50% 50%);
+    transition: opacity 0.4s ease-out, visibility 0.4s, clip-path 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.lap-overlay-page.is-visible {
+    opacity: 1;
+    visibility: visible;
+    clip-path: circle(75% at 50% 50%); /* 75% copre un quadrato/rettangolo */
+}
+
+.lap-overlay-page .lap-content {
+    text-align: center;
+}
+
+.lap-overlay-page #new-lap-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    transform: scale(0.9);
+    opacity: 0;
+    animation: fadeInScale 0.4s 0.2s ease-out forwards;
+}
+
+/* Animazione per il testo */
+@keyframes fadeInScale {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

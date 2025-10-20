@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Workout App</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="root-container">
+
+        <div id="welcome-screen" class="fullscreen-page is-visible">
+            <h2>Workout di Oggi</h2>
+            <h3 id="welcome-day">...</h3>
+            <p id="welcome-muscles">...</p>
+            <p id="welcome-total-time">...</p>
+            <button id="start-workout-button" class="btn-primary">Inizia Allenamento</button>
+            <button id="change-day-button" class="btn-secondary">Cambia Giorno</button>
+        </div>
+
+        <div id="intermediate-screen" class="fullscreen-page hidden">
+            <h2>Prossima Sezione</h2>
+            <h3 id="inter-section-name">...</h3>
+            <div id="inter-image-container">
+                <img id="inter-section-image" src="" alt="Sezione">
+            </div>
+            <p id="inter-section-info">...</p>
+            <button id="start-section-button" class="btn-primary">Avvia Sezione</button>
+        </div>
+
+        <div id="workout-container" class="hidden">
+            <header>
+                <h1 id="app-title">Workout del Giorno</h1>
+                <p id="day-of-week">...</p>
+                <p id="muscle-groups">...</p>
+            </header>
+
+            <main>
+                <div id="section-header">
+                    <h3 id="section-title"></h3>
+                    <span id="section-timer">00:00 / 00:00</span>
+                </div>
+
+                <div id="exercise-area">
+                    <h4 id="exercise-name">Caricamento...</h4>
+                    <div id="gif-container">
+                        <img id="exercise-gif" src="" alt="Esercizio">
+
+                        <div id="pause-animation">
+                            <div class="pause-circle"></div>
+                        </div>
+                        </div>
+                </div>
+            </main>
+
+            <footer>
+                <div id="progress-bar-container">
+                    <div id="progress-bar-inner"></div>
+                    <span id="progress-bar-timer">00:00</span>
+                </div>
+                <div id="button-group">
+                    <button id="pause-button" class="btn-secondary">Pausa</button>
+                    <button id="next-button" class="btn-primary">Avanti</button>
+                </div>
+            </footer>
+        </div>
+
+        <div id="message-container" class="fullscreen-page hidden">
+            <h2 id="message-text">Caricamento allenamento...</h2>
+        </div>
+
+        <div id="complete-screen" class="fullscreen-page hidden">
+            <h2>Ottimo Lavoro!</h2>
+            <h3>Allenamento Completato</h3>
+            <div id="inter-image-container" style="margin-bottom: 1.5rem;">
+                <img id="complete-image" src="img/complete.png" alt="Completato" style="width: 80%; height: 80%; object-fit: contain;">
+            </div>
+            <p id="complete-summary">Hai completato il tuo allenamento.</p>
+            <button id="home-button" class="btn-primary">Torna alla Home</button>
+        </div>
+
+    </div>
+
+    <div id="day-picker-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h3>Scegli il giorno</h3>
+            <button class="day-btn" data-day="Lunedì">Lunedì</button>
+            <button class="day-btn" data-day="Martedì">Martedì</button>
+            <button class="day-btn" data-day="Mercoledì">Mercoledì</button>
+            <button class="day-btn" data-day="Giovedì">Giovedì</button>
+            <button class="day-btn" data-day="Venerdì">Venerdì</button>
+            <button class="day-btn" data-day="Sabato">Sabato</button>
+            <button class="day-btn" data-day="Domenica">Domenica</button>
+            <button id="close-modal-button" class="btn-secondary">Chiudi</button>
+        </div>
+    </div>
+
+    <div id="pause-overlay" class="modal-overlay hidden">
+        <div class="pause-content">
+            <h1>PAUSA</h1>
+            <button id="resume-button" class="btn-primary">Riprendi</button>
+        </div>
+    </div>
+
+    <div id="new-lap-overlay" class="lap-overlay-page hidden">
+        <div class="lap-content">
+            <span id="new-lap-text">Giro 1</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

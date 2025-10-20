@@ -1,0 +1,1046 @@
+{
+  "Lunedì": {
+    "Gruppo muscolare": "Pettorali, Spalle, Tricipiti, Gambe, Glutei, Core",
+    "Strecching": {
+      "Tempo": 600,
+      "Esercizi": [
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Quadruped Thoracic Rotations (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Quadruped Thoracic Rotations (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Shoulder Circles",
+          "Gif": "https://gymvisual.com/img/p/2/1/6/5/9/21659.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Wall Slides",
+          "Gif": "https://gymvisual.com/img/p/1/2/6/6/5/12665.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Hip Circles (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/2/1/5/6/3/21563.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Hip Circles (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/2/1/5/6/3/21563.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Bodyweight Squats (lenti)",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Runner's Lunge with Twist (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/1/8/2/7/8/18278.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Runner's Lunge with Twist (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/1/8/2/7/8/18278.gif",
+          "Tempo": 60
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 960,
+      "Giri": 4,
+      "Esercizi": [
+        {
+          "Nome": "Jump Squats",
+          "Gif": "https://gymvisual.com/img/p/5/2/5/2/5252.gif",
+          "Tempo": 40,
+          "Pausa": 20
+        },
+        {
+          "Nome": "Push-ups (scegliere la variante adatta)",
+          "Gif": "https://gymvisual.com/img/p/3/9/6/3/4/39634.gif",
+          "Tempo": 40,
+          "Pausa": 20
+        },
+        {
+          "Nome": "Reverse Lunges (alternando le gambe)",
+          "Gif": "https://gymvisual.com/img/p/2/9/0/2/3/29023.gif",
+          "Tempo": 40,
+          "Pausa": 20
+        },
+        {
+          "Nome": "Plank",
+          "Gif": "https://gymvisual.com/img/p/1/2/7/1/0/12710.gif",
+          "Tempo": 40,
+          "Pausa": 20
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Martedì": {
+    "Gruppo muscolare": "Dorsali, Bicipiti, Glutei, Femorali, Core, Schiena Bassa",
+    "Strecching": {
+      "Tempo": 570,
+      "Esercizi": [
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Prone Fly",
+          "Gif": "https://gymvisual.com/img/p/2/4/2/2/6/24226.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Bird-Dog (lenti)",
+          "Gif": "https://gymvisual.com/img/p/2/0/8/2/4/20824.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Thoracic Rotations (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Thoracic Rotations (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Hip Hinge Swings",
+          "Gif": "https://gymvisual.com/img/p/2/2/6/1/4/22614.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Glute Bridges (pausa in alto)",
+          "Gif": "https://gymvisual.com/img/p/9/3/7/9/9379.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Downward-Facing Dog to Plank",
+          "Gif": "https://gymvisual.com/img/p/2/4/6/9/7/24697.gif",
+          "Tempo": 90
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 960,
+      "Giri": 4,
+      "Esercizi": [
+        {
+          "Nome": "Towel/Doorway Rows",
+          "Gif": "https://gymvisual.com/img/p/1/5/0/8/9/15089.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Glute Bridges",
+          "Gif": "https://gymvisual.com/img/p/9/3/7/9/9379.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Mountain Climbers",
+          "Gif": "https://gymvisual.com/img/p/1/9/8/5/7/19857.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Superman Hold (tenuta isometrica)",
+          "Gif": "https://gymvisual.com/img/p/1/5/0/5/2/15052.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Mercoledì": {
+    "Gruppo muscolare": "Gambe (Quadricipiti, Adduttori), Glutei, Core (Addominali, Obliqui), Cardio",
+    "Strecching": {
+      "Tempo": 630,
+      "Esercizi": [
+        {
+          "Nome": "Leg Swings (fronte/lato) (gamba dx)",
+          "Gif": "https://gymvisual.com/img/p/2/2/9/1/5/22915.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Leg Swings (fronte/lato) (gamba sx)",
+          "Gif": "https://gymvisual.com/img/p/2/2/9/1/5/22915.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Ankle Rotations (caviglia dx)",
+          "Gif": "https://gymvisual.com/img/p/2/1/5/6/0/21560.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Ankle Rotations (caviglia sx)",
+          "Gif": "https://gymvisual.com/img/p/2/1/5/6/0/21560.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Deep Squat Hold",
+          "Gif": "https://gymvisual.com/img/p/3/7/7/2/7/37727.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Kneeling Hip Flexor Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/0/9060.gif",
+          "Tempo": 45
+        },
+        {
+          "Nome": "Kneeling Hip Flexor Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/0/9060.gif",
+          "Tempo": 45
+        },
+        {
+          "Nome": "Lateral Squats",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/3/1/38231.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 60
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 720,
+      "Giri": 3,
+      "Esercizi": [
+        {
+          "Nome": "Burpees (senza push-up se necessario)",
+          "Gif": "https://gymvisual.com/img/p/8/9/6/6/8966.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Lateral Lunges (alternando i lati)",
+          "Gif": "https://gymvisual.com/img/p/1/8/5/4/1/18541.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Bicycle Crunches",
+          "Gif": "https://gymvisual.com/img/p/2/7/6/6/2/27662.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "High Knees (massima velocità)",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Giovedì": {
+    "Gruppo muscolare": "Core (Obliqui, Stabilizzatori), Pettorali, Spalle, Gambe, Glutei",
+    "Strecching": {
+      "Tempo": 510,
+      "Esercizi": [
+        {
+          "Nome": "Bird-Dog (controllati)",
+          "Gif": "https://gymvisual.com/img/p/2/0/8/2/4/20824.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Glute Bridges",
+          "Gif": "https://gymvisual.com/img/p/9/3/7/9/9379.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Plank",
+          "Gif": "https://gymvisual.com/img/p/1/2/7/1/0/12710.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Side Plank (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/2/4/3/0/3/24303.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Side Plank (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/2/4/3/0/3/24303.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Bodyweight Squats (tempo 3-1-1)",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Hollow Body Hold (3x20s)",
+          "Gif": "https://gymvisual.com/img/p/9/0/7/5/9075.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Wall Slides",
+          "Gif": "https://gymvisual.com/img/p/1/2/6/6/5/12665.gif",
+          "Tempo": 60
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 720,
+      "Giri": 3,
+      "Esercizi": [
+        {
+          "Nome": "Negative Push-ups (discesa in 3-4 secondi)",
+          "Gif": "https://gymvisual.com/img/p/2/4/5/6/3/24563.gif",
+          "Tempo": 50,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Pause Squats (pausa di 2 secondi in basso)",
+          "Gif": "https://gymvisual.com/img/p/3/7/7/2/7/37727.gif",
+          "Tempo": 50,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Side Plank (lato destro)",
+          "Gif": "https://gymvisual.com/img/p/2/4/3/0/3/24303.gif",
+          "Tempo": 50,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Side Plank (lato sinistro)",
+          "Gif": "https://gymvisual.com/img/p/2/4/3/0/3/24303.gif",
+          "Tempo": 50,
+          "Pausa": 10
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Venerdì": {
+    "Gruppo muscolare": "Spalle, Pettorali Superiori, Gambe, Glutei (Potenza), Core, Cardio",
+    "Strecching": {
+      "Tempo": 480,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Walking Lunges",
+          "Gif": "https://gymvisual.com/img/p/3/7/3/7/2/37372.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Arm Circles",
+          "Gif": "https://gymvisual.com/img/p/2/3/7/2/9/23729.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Skaters (bassa intensità)",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/5/2/14952.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Burpees (lenti, senza salto)",
+          "Gif": "https://gymvisual.com/img/p/8/9/6/6/8966.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Hip Hinge Swings",
+          "Gif": "https://gymvisual.com/img/p/2/2/6/1/4/22614.gif",
+          "Tempo": 60
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 480,
+      "Giri": 4,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 20,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Hollow Body Hold",
+          "Gif": "https://gymvisual.com/img/p/9/0/7/5/9075.gif",
+          "Tempo": 20,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Split Squat Jumps",
+          "Gif": "https://gymvisual.com/img/p/1/4/7/3/4/14734.gif",
+          "Tempo": 20,
+          "Pausa": 10
+        },
+        {
+          "Nome": "Pike Push-ups",
+          "Gif": "https://gymvisual.com/img/p/1/2/6/4/2/12642.gif",
+          "Tempo": 20,
+          "Pausa": 10
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Sabato": {
+    "Gruppo muscolare": "Dorsali, Schiena (Romboidi, Trapezi), Glutei, Femorali, Core (Stabilizzatori)",
+    "Strecching": {
+      "Tempo": 480,
+      "Esercizi": [
+        {
+          "Nome": "Glute Bridges",
+          "Gif": "https://gymvisual.com/img/p/9/3/7/9/9379.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Hip Hinge Swings",
+          "Gif": "https://gymvisual.com/img/p/2/2/6/1/4/22614.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Superman",
+          "Gif": "https://gymvisual.com/img/p/1/5/0/5/2/15052.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Wall Slides",
+          "Gif": "https://gymvisual.com/img/p/1/2/6/6/5/12665.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Reverse Lunges (lenti)",
+          "Gif": "https://gymvisual.com/img/p/2/9/0/2/3/29023.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Downward-Facing Dog",
+          "Gif": "https://gymvisual.com/img/p/1/8/2/8/2/18282.gif",
+          "Tempo": 60
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 720,
+      "Giri": 3,
+      "Esercizi": [
+        {
+          "Nome": "Sliding Floor Pull-downs",
+          "Gif": "https://gymvisual.com/img/p/1/5/0/8/1/15081.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Single-Leg Glute Bridges (cambiare gamba a metà tempo)",
+          "Gif": "https://gymvisual.com/img/p/2/1/5/6/7/21567.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Bird-Dog (movimento lento e controllato)",
+          "Gif": "https://gymvisual.com/img/p/2/0/8/2/4/20824.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        },
+        {
+          "Nome": "Table Rows (se disponibile) o Towel Rows",
+          "Gif": "https://gymvisual.com/img/p/1/5/0/1/9/15019.gif",
+          "Tempo": 45,
+          "Pausa": 15
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  },
+  "Domenica": {
+    "Gruppo muscolare": "Mobilità Articolare, Flessibilità, Recupero Muscolare",
+    "Strecching": {
+      "Tempo": 570,
+      "Esercizi": [
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Seated Spinal Twist (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/2/7/2/9/6/27296.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Seated Spinal Twist (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/2/7/2/9/6/27296.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Kneeling Hip Flexor Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/0/9060.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Kneeling Hip Flexor Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/0/9060.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "Downward-Facing Dog",
+          "Gif": "https://gymvisual.com/img/p/1/8/2/8/2/18282.gif",
+          "Tempo": 90
+        },
+        {
+          "Nome": "Deep Squat Hold",
+          "Gif": "https://gymvisual.com/img/p/3/7/7/2/7/37727.gif",
+          "Tempo": 90
+        }
+      ]
+    },
+    "Riscaldamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Jumping Jacks",
+          "Gif": "https://gymvisual.com/img/p/1/4/9/3/7/14937.gif",
+          "Tempo": 60
+        },
+        {
+          "Nome": "High Knees",
+          "Gif": "https://gymvisual.com/img/p/2/6/9/9/8/26998.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Butt Kicks",
+          "Gif": "https://gymvisual.com/img/p/1/4/8/8/2/14882.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Arm Circles & Torso Twists",
+          "Gif": "https://gymvisual.com/img/p/3/8/2/6/3/38263.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Bodyweight Squats",
+          "Gif": "https://gymvisual.com/img/p/2/8/1/6/0/28160.gif",
+          "Tempo": 30
+        }
+      ]
+    },
+    "Circuito": {
+      "Tempo": 840,
+      "Giri": 2,
+      "Esercizi": [
+        {
+          "Nome": "Cat-Cow",
+          "Gif": "https://gymvisual.com/img/p/2/1/7/8/4/21784.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "Quadruped Thoracic Rotations (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "Quadruped Thoracic Rotations (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/1/0/1/0/2/10102.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "World's Greatest Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/2/4/5/0/1/24501.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "World's Greatest Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/2/4/5/0/1/24501.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "Wall Slides",
+          "Gif": "https://gymvisual.com/img/p/1/2/6/6/5/12665.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        },
+        {
+          "Nome": "Deep Squat Hold (tenuta isometrica)",
+          "Gif": "https://gymvisual.com/img/p/3/7/7/2/7/37727.gif",
+          "Tempo": 60,
+          "Pausa": 0
+        }
+      ]
+    },
+    "Defaticamento": {
+      "Tempo": 180,
+      "Esercizi": [
+        {
+          "Nome": "Standing Quad Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Quad Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/9/0/6/6/9066.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato dx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Hamstring Stretch (lato sx)",
+          "Gif": "https://gymvisual.com/img/p/5/5/1/3/5513.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Standing Chest Opener",
+          "Gif": "https://gymvisual.com/img/p/3/5/2/9/9/35299.gif",
+          "Tempo": 30
+        },
+        {
+          "Nome": "Child's Pose",
+          "Gif": "https://gymvisual.com/img/p/2/6/0/1/2/26012.gif",
+          "Tempo": 30
+        }
+      ]
+    }
+  }
+}
